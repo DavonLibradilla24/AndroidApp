@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/buttonSubmitContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/teal_700"
+        android:elevation="4dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonBackFromAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/teal_700"
+        android:elevation="4dp"/>
+</LinearLayout>

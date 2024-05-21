@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/editTextMath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Math"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <EditText
+        android:id="@+id/editTextFilipino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Filipino"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <EditText
+        android:id="@+id/editTextScience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Science"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <EditText
+        android:id="@+id/editTextMapeh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MAPEH"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <EditText
+        android:id="@+id/editTextEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="English"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/buttonSubmitAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:padding="12dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/teal_700"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/buttonBackFromCompute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/teal_700"
+            android:elevation="4dp"/>
+    </LinearLayout>
+</LinearLayout>
